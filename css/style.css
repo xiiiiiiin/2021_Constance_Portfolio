@@ -64,6 +64,11 @@ font-family: 'Europa', sans-serif;
        url('../fonts/noto-sans-v21-latin-regular.svg#NotoSans') format('svg'); /* Legacy iOS */
 }
 
+.mobile-bar-wrapper *, h1 {
+    font-family: 'Europa' !important;
+    font-size: 18px
+}
+
 h1 {
     font-family: 'Europa', sans-serif;
     font-size: 32px;
