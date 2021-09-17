@@ -47,9 +47,15 @@ font-family: 'Europa', sans-serif;
 @font-face {
   font-family: 'Europa';
   src: url("//db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.eot");
-  font-weight: normal;
-  font-style: normal;
+  src: url("//db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.ttf") format("truetype"), 
+    url("//db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.svg#Europa") format("svg");
+    font-weight: normal;
+    font-style: normal;
 }
+  
 
 @font-face {
   font-family: 'Noto Sans';
@@ -749,7 +755,7 @@ a.active {
 
 body {
   margin: 0;
-  font-family: 'Europa';
+  font-family: 'Europa', sans-serif;
 }
 
 .carousel {
