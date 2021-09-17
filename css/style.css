@@ -70,10 +70,7 @@ font-family: 'Europa', sans-serif;
        url('../fonts/noto-sans-v21-latin-regular.svg#NotoSans') format('svg'); /* Legacy iOS */
 }
 
-.mobile-bar-wrapper *, h1 {
-    font-family: 'Europa' !important;
-    font-size: 18px
-}
+
 
 h1 {
     font-family: 'Europa', sans-serif;
@@ -118,7 +115,7 @@ h1:before {
 ==================================================*/
 
 body {
-    font-family: 'Europa', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 18px;
     line-height: 30px;
 }
