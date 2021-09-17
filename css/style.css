@@ -99,16 +99,6 @@ h4:before {
     top: 9px;
 }
 
-h1:before {
-    position: absolute;
-    width: 30px;
-    left: -40px;
-    content: "";
-    display: block;
-    height: 2px;
-    background: #425BB5;
-    top: 9px;
-}
 
 
 /* General
