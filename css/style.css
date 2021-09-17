@@ -73,14 +73,14 @@ font-family: 'Europa', sans-serif;
 
 
 h1 {
-    font-family: 'Europa', sans-serif;
+    font-family: 'Noto sans', sans-serif;
     font-size: 32px;
     line-height: 40px;
     color: ##2d3436;
 }
 
 h4 {
-    font-family: 'Europa', sans-serif;
+    font-family: 'Noto sans', sans-serif;
     letter-spacing: 2px;
     position: relative;
     color: #425BB5;
@@ -1528,7 +1528,7 @@ body {
 
 @media (max-width: 500px) {
     h1 {
-        font-family: 'Europa';
+        font-family: 'Noto sans', sans-serif;
         font-size: 36px;
         line-height: 50px;
     }
