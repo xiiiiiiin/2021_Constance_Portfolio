@@ -65,7 +65,7 @@ font-family: 'Europa', sans-serif;
 }
 
 h1 {
-    font-family: 'Europa' !important;
+    font-family: 'Europa', sans-serif;
     font-size: 32px;
     line-height: 40px;
     color: ##2d3436;
@@ -97,7 +97,7 @@ h4:before {
 ==================================================*/
 
 body {
-    font-family: 'noto-sans', sans-serif;
+    font-family: 'Europa', sans-serif;
     font-size: 18px;
     line-height: 30px;
 }
@@ -734,7 +734,7 @@ a.active {
 
 body {
   margin: 0;
-  font-family: 'noto-sans';
+  font-family: 'Europa';
 }
 
 .carousel {
