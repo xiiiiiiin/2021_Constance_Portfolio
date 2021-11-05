@@ -27,9 +27,9 @@
 @import 'https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Playfair+Display:400,400i,700,700i,900,900i';
 
 /*
-font-family: 'Europa', serif;
-font-family: 'Europa', sans-serif;
-font-family: 'Europa', sans-serif;
+font-family: 'Poppins', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Poppins', sans-serif;
 */
 
 
@@ -45,7 +45,7 @@ font-family: 'Europa', sans-serif;
 }
 
 @font-face {
-  font-family: 'Europa';
+  font-family: 'Poppins';
   src: url("//db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.eot");
   src: url("//db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.eot?#iefix") format("embedded-opentype"), 
     url("//db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.woff2") format("woff2"), 
@@ -58,7 +58,7 @@ font-family: 'Europa', sans-serif;
   
 
 @font-face {
-  font-family: 'Noto Sans';
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   src: url('../fonts/noto-sans-v21-latin-regular.eot'); /* IE9 Compat Modes */
@@ -73,17 +73,17 @@ font-family: 'Europa', sans-serif;
 
 
 h1 {
-    font-family: 'Noto sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 32px;
     line-height: 40px;
-    color: ##2d3436;
+    color: #3b434e;
 }
 
 h4 {
-    font-family: 'Noto sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     letter-spacing: 2px;
     position: relative;
-    color: #425BB5;
+    color: #3b434e;
     margin-left: 40px;
     font-weight: 500;
 }
@@ -105,7 +105,7 @@ h4:before {
 ==================================================*/
 
 body {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     line-height: 30px;
 }
@@ -120,7 +120,7 @@ body {
 }
 
 p{
-    color: #4d4d4d;
+    color: #3b434e;
 }
 
 
@@ -315,7 +315,7 @@ a:hover {
 }
 
 a.active {
-    color: #425BB5;
+    color: #3b434e;
 }
 
 
@@ -323,10 +323,10 @@ a.active {
 ==================================================*/
 
 #home {
-    background: url(../img/portfolio/home/Banner_3.png);
+    background: url(../img/portfolio/home/Banner_4.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 100vh;
 }
 
 .table-cell {
@@ -376,10 +376,10 @@ a.active {
 }
 
 .experience-row h3 {
-    font-family: 'Europa', sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-transform: capitalize;
     letter-spacing: 2px;
-    color: #425BB5;
+    color: #3b434e;
     font-size: 16px;
     font-weight: bold
 }
@@ -742,7 +742,11 @@ a.active {
 
 body {
   margin: 0;
-  font-family: 'Noto sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #3b434e;
 }
 
 .carousel {
@@ -1528,13 +1532,13 @@ body {
 
 @media (max-width: 500px) {
     h1 {
-        font-family: 'Noto sans', sans-serif;
+        font-family: 'Poppins', sans-serif;
         font-size: 36px;
         line-height: 50px;
     }
     #home,
     .disply-table {
-        height: 600px;
+        height: 800px;
     }
     .about-border {
         width: 265px;
