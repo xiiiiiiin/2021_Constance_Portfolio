@@ -83,7 +83,7 @@ h4 {
     font-family: 'Poppins', sans-serif;
     letter-spacing: 2px;
     position: relative;
-    color: #3b434e;
+    color: #425bb5;
     margin-left: 40px;
     font-weight: 500;
 }
@@ -292,7 +292,7 @@ nav li a {
     letter-spacing: 2px;
     color: #444;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .bg-nav {
