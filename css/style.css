@@ -444,7 +444,7 @@ a.active {
 }
 
 .timeline-event-copy strong {
-    font-weight: 700;
+    font-weight: 300;
 }
 
 .timeline-event-copy p:not(.timeline-event-thumbnail) {
