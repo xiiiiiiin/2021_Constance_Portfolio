@@ -81,9 +81,9 @@ h1 {
 
 h4 {
     font-family: 'Poppins', sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     position: relative;
-    color: #425bb5;
+    color: #425BB5;
     margin-left: 40px;
     font-weight: 500;
 }
@@ -327,6 +327,8 @@ a.active {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    display:block; 
+    margin:auto;
 }
 
 .table-cell {
@@ -443,8 +445,8 @@ a.active {
     margin-bottom: 1.2em;
 }
 
-.timeline-event-copy strong {
-    font-weight: 300;
+.timeline-event-copy banner_4 {
+    font-weight: 700;
 }
 
 .timeline-event-copy p:not(.timeline-event-thumbnail) {
