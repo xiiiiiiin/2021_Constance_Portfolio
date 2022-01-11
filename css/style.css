@@ -85,8 +85,9 @@ h4 {
     position: relative;
     color: #425BB5;
     margin-left: 40px;
-    font-weight: 500;
+    font-weight: 500 !important;
 }
+
 
 h4:before {
     position: absolute;
@@ -98,6 +99,8 @@ h4:before {
     background: #425BB5;
     top: 9px;
 }
+
+
 
 
 
@@ -123,6 +126,9 @@ p{
     color: #3b434e;
 }
 
+b {
+    font-weight: 500;
+}
 
 /* preloader
 ==================================================*/
