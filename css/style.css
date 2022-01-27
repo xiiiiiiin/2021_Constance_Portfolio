@@ -325,7 +325,6 @@ a.active {
 ==================================================*/
 
 #home {
-    background: url(../img/portfolio/home/Banner_4.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
